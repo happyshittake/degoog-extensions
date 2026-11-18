@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "description": "Custom Degoog search engine extensions",
   "author": "ndjoe",
-  "license": "MIT"
+  "license": "MIT",
+  "degoog": {
+    "engines": [
+      "engines/deepseek-search"
+    ]
+  }
 }
