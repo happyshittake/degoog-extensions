@@ -4,9 +4,13 @@
   "description": "Custom Degoog search engine extensions",
   "author": "ndjoe",
   "license": "MIT",
-  "degoog": {
-    "engines": [
-      "engines/deepseek-search"
-    ]
-  }
+  "engines": [
+    {
+      "path": "engines/deepseek-search",
+      "name": "DeepSeek Search",
+      "description": "Web search through DeepSeek Search API",
+      "version": "1.0.0",
+      "minDegoogVersion": "1.1.0"
+    }
+  ]
 }
